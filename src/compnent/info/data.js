@@ -12,8 +12,8 @@ export const HomeObjOne = {
     imgStart:false,
     img:require('../../images/link1.jpg'),
     alt:'link 1',
-    dark:true,
-    primary:true,
+    dark:false,
+    primary:false,
     darkText:true
 }
 export const HomeObjtwo = {
@@ -44,8 +44,8 @@ export const HomeObjthree = {
     imgStart:false,
     img:require('../../images/link3.jpg'),
     alt:'link 3',
-    dark:true,
-    primary:true,
+    dark:false,
+    primary:false,
     darkText:true
 }
 export const HomeObjfour = {
@@ -60,7 +60,7 @@ export const HomeObjfour = {
     imgStart:true,
     img:require('../../images/link4.jpg'),
     alt:'link 4',
-    dark:true,
+    dark:false,
     primary:true,
     darkText:false
 }

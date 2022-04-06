@@ -23,7 +23,7 @@ const HeroSection = () => {
                 Sample for desining website
             </HeroP>
             <HeroBtnWrapper>
-                <Button smooth={true} duration={500}spy={true} exact='true'offset={-80} primary='true' dark='true'to='services' onMouseEnter={onHover} onMouseLeave={onHover}>click me {hover? <ArrowForward/>:<ArrowRight/>}</Button>
+                <Button smooth={true} duration={500}spy={true} exact='true'offset={-80} primary={true} dark={false} to='services' onMouseEnter={onHover} onMouseLeave={onHover}>click me {hover? <ArrowForward/>:<ArrowRight/>}</Button>
             </HeroBtnWrapper>
         </HeroContent>
 
