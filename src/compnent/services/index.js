@@ -6,31 +6,31 @@ import { ServiceP,ServicesCard,ServicesContainer,ServicesH1,ServicesH2,ServicesI
 const Services = () => {
   return (
     <ServicesContainer id='services'>
-        <ServicesH1>Example h1</ServicesH1>
+        <ServicesH1>Services</ServicesH1>
         <ServicesWrapper>
             {/* card 1 */}
             <ServicesCard>
             <ServicesIcon src={icon1}/>
             <ServicesH2>
-                example h2
+                Courses
             </ServicesH2>
-            <ServiceP>card 1</ServiceP>
+            <ServiceP>We teach all the basic foundementals for you to starts riding a horse</ServiceP>
             </ServicesCard>
             {/* card 2 */}
             <ServicesCard>
             <ServicesIcon src={icon1}/>
             <ServicesH2>
-                example h2
+                Third party horse owners
             </ServicesH2>
-            <ServiceP>card 2</ServiceP>
+            <ServiceP>We are able to find you the most suitable horse to purchase from a variety of owners</ServiceP>
             </ServicesCard>
             {/* card 3 */}
             <ServicesCard>
             <ServicesIcon src={icon1}/>
             <ServicesH2>
-                example h2
+                Purchase a horse
             </ServicesH2>
-            <ServiceP>card 3</ServiceP>
+            <ServiceP>We are able to offer you the best offers and the best horses depending on your need.</ServiceP>
             </ServicesCard>
         </ServicesWrapper>
         

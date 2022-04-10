@@ -17,13 +17,13 @@ const HeroSection = () => {
         </HeroBg>
         <HeroContent>
             <HeroH1>
-                sample horse website
+                We Aim to Educate People On Horses.
             </HeroH1>
             <HeroP>
-                Sample for desining website
+                As we know not many of us have the rich knowledge of how important our horses are, we came in terms with the most important points you should know about your horse.
             </HeroP>
             <HeroBtnWrapper>
-                <Button smooth={true} duration={500}spy={true} exact='true'offset={-80} primary={true} dark={false} to='services' onMouseEnter={onHover} onMouseLeave={onHover}>click me {hover? <ArrowForward/>:<ArrowRight/>}</Button>
+                <Button smooth={true} duration={500}spy={true} exact='true'offset={-80} primary={true} dark={false} to='services' onMouseEnter={onHover} onMouseLeave={onHover}>Join Our Community {hover? <ArrowForward/>:<ArrowRight/>}</Button>
             </HeroBtnWrapper>
         </HeroContent>
 

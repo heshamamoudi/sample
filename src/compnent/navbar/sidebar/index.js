@@ -8,14 +8,14 @@ const Sidebar = ({isOpen,toggle}) => {
         </Icon>
         <SidebarWrapper>
             <SidebarMenu>
-                <SidebarLink smooth={true} duration={500}spy={true} exact='true'offset={-80} to='link1' onClick={toggle}>link1</SidebarLink>
-                <SidebarLink smooth={true} duration={500}spy={true} exact='true'offset={-80} to='link2' onClick={toggle}>link2</SidebarLink>
-                <SidebarLink smooth={true} duration={500}spy={true} exact='true'offset={-80} to='link3' onClick={toggle}>link3</SidebarLink>
-                <SidebarLink smooth={true} duration={500}spy={true} exact='true'offset={-80} to='link4' onClick={toggle}>link4</SidebarLink>
+                <SidebarLink smooth={true} duration={500}spy={true} exact='true'offset={-80} to='link1' onClick={toggle}>Riders</SidebarLink>
+                <SidebarLink smooth={true} duration={500}spy={true} exact='true'offset={-80} to='link2' onClick={toggle}>Trainers</SidebarLink>
+                <SidebarLink smooth={true} duration={500}spy={true} exact='true'offset={-80} to='link3' onClick={toggle}>Owners</SidebarLink>
+                <SidebarLink smooth={true} duration={500}spy={true} exact='true'offset={-80} to='link4' onClick={toggle}>Kids</SidebarLink>
             </SidebarMenu>
             <SideBtnWrap>
                 <SidebarRoute to='/anotherpage'>
-                another page
+                Start Owning
                 </SidebarRoute>
             </SideBtnWrap>
         </SidebarWrapper>
